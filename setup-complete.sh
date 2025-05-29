@@ -44,177 +44,85 @@ command_exists() {
     command -v "$1" >/dev/null 2>&1
 }
 
-# Function to detect package manager
-detect_package_manager() {
+# Function to install HyDE
+install_hyde() {
+    print_header "INSTALLING HYDE ENVIRONMENT"
+    
+    # Check if HyDE directory exists
+    if [[ -d "$HOME/HyDE" ]]; then
+        print_status "HyDE directory found at $HOME/HyDE"
+        print_status "Running HyDE installation script..."
+        
+        cd "$HOME/HyDE/Scripts"
+        
+        # Run HyDE install script with default options
+        print_status "Starting HyDE installation (this may take a while)..."
+        if ./install.sh -d; then
+            print_success "HyDE installation completed successfully"
+        else
+            print_warning "HyDE installation encountered issues, but continuing..."
+        fi
+        
+        cd "$DOTFILES_DIR"
+    else
+        print_warning "HyDE directory not found at $HOME/HyDE"
+        print_status "Cloning HyDE repository..."
+        
+        cd "$HOME"
+        git clone --depth 1 https://github.com/prasanthrangan/hyprdots.git HyDE
+        
+        if [[ -d "$HOME/HyDE" ]]; then
+            print_success "HyDE repository cloned successfully"
+            cd "$HOME/HyDE/Scripts"
+            
+            print_status "Running HyDE installation..."
+            if ./install.sh -d; then
+                print_success "HyDE installation completed successfully"
+            else
+                print_warning "HyDE installation encountered issues, but continuing..."
+            fi
+            
+            cd "$DOTFILES_DIR"
+        else
+            print_error "Failed to clone HyDE repository"
+            print_error "Please install HyDE manually from: https://github.com/prasanthrangan/hyprdots"
+            exit 1
+        fi
+    fi
+}
+
+# Function to install additional packages not covered by HyDE
+install_additional_packages() {
+    print_header "INSTALLING ADDITIONAL PACKAGES"
+    
+    # Check if we have pacman (Arch Linux)
     if command_exists pacman; then
-        echo "pacman"
-    elif command_exists apt; then
-        echo "apt"
-    elif command_exists dnf; then
-        echo "dnf"
-    elif command_exists zypper; then
-        echo "zypper"
-    elif command_exists brew; then
-        echo "brew"
-    else
-        echo "unknown"
-    fi
-}
-
-# Function to install packages based on package manager
-install_packages() {
-    local pm="$1"
-    shift
-    local packages=("$@")
-    
-    case "$pm" in
-        pacman)
-            sudo pacman -S --needed --noconfirm "${packages[@]}"
-            ;;
-        apt)
-            sudo apt update
-            sudo apt install -y "${packages[@]}"
-            ;;
-        dnf)
-            sudo dnf install -y "${packages[@]}"
-            ;;
-        zypper)
-            sudo zypper install -y "${packages[@]}"
-            ;;
-        brew)
-            brew install "${packages[@]}"
-            ;;
-        *)
-            print_error "Unknown package manager. Please install packages manually."
-            echo "Required packages: ${packages[*]}"
-            return 1
-            ;;
-    esac
-}
-
-# Function to install essential packages
-install_essential_packages() {
-    print_header "INSTALLING ESSENTIAL PACKAGES"
-    
-    local pm=$(detect_package_manager)
-    print_status "Detected package manager: $pm"
-    
-    case "$pm" in
-        pacman)
-            local packages=(
-                "zsh" "git" "curl" "wget" "base-devel"
-                "neovim" "wezterm" "kitty"
-                "hyprland" "waybar" "rofi-wayland" "dunst" "wlogout"
-                "fastfetch" "starship" "cava" "mpv"
-                "gtk3" "gtk4" "qt5ct" "qt6ct" "kvantum"
-                "nvm" "thefuck" "lazygit"
-                "ttf-fira-code" "ttf-jetbrains-mono" "noto-fonts"
-                "pipewire" "pipewire-pulse" "pavucontrol"
-                "firefox" "nautilus" "code"
+        print_status "Installing additional packages..."
+        
+        local additional_packages=(
+            "wezterm"           # Your preferred terminal
+            "neovim"            # Your editor
+            "lazygit"           # Git TUI
+            "thefuck"           # Command correction
+        )
+        
+        sudo pacman -S --needed --noconfirm "${additional_packages[@]}" || print_warning "Some additional packages failed to install"
+        
+        # Install AUR packages if yay is available
+        if command_exists yay; then
+            print_status "Installing additional AUR packages..."
+            local aur_packages=(
+                "spicetify-cli"
+                "visual-studio-code-bin"
             )
-            install_packages "$pm" "${packages[@]}"
-            
-            # Install yay if not present
-            if ! command_exists yay; then
-                print_status "Installing yay AUR helper..."
-                git clone https://aur.archlinux.org/yay.git /tmp/yay
-                cd /tmp/yay
-                makepkg -si --noconfirm
-                cd "$DOTFILES_DIR"
-                rm -rf /tmp/yay
-            fi
-            
-            # Install AUR packages
-            if command_exists yay; then
-                print_status "Installing AUR packages..."
-                local aur_packages=(
-                    "hyde-cli-git"
-                    "spicetify-cli"
-                    "visual-studio-code-bin"
-                    "spotify"
-                    "discord"
-                )
-                yay -S --needed --noconfirm "${aur_packages[@]}" || print_warning "Some AUR packages failed to install"
-            fi
-            ;;
-        apt)
-            # Update package list
-            sudo apt update
-            
-            local packages=(
-                "zsh" "git" "curl" "wget" "build-essential"
-                "neovim" "kitty"
-                "rofi" "dunst"
-                "fastfetch" "cava" "mpv"
-                "qt5ct"
-                "fonts-firacode" "fonts-jetbrains-mono"
-                "pipewire" "pavucontrol"
-                "firefox" "nautilus" "code"
-            )
-            install_packages "$pm" "${packages[@]}"
-            print_warning "Some packages like Hyprland, WezTerm, Waybar might need manual installation on Ubuntu/Debian"
-            print_warning "You may need to add additional repositories for some packages"
-            ;;
-        *)
-            print_warning "Please install the required packages manually for your distribution"
-            ;;
-    esac
-    
-    print_success "Essential packages installation completed"
-}
-
-# Function to install Oh My Zsh and plugins
-setup_zsh() {
-    print_header "SETTING UP ZSH ENVIRONMENT"
-    
-    # Install Oh My Zsh
-    if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
-        print_status "Installing Oh My Zsh..."
-        sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-        print_success "Oh My Zsh installed"
+            yay -S --needed --noconfirm "${aur_packages[@]}" || print_warning "Some AUR packages failed to install"
+        fi
     else
-        print_warning "Oh My Zsh already installed"
+        print_warning "Not on Arch Linux - skipping additional package installation"
+        print_warning "Please install wezterm, neovim, and other tools manually"
     fi
     
-    # Install Powerlevel10k
-    local p10k_dir="$HOME/.oh-my-zsh/custom/themes/powerlevel10k"
-    if [[ ! -d "$p10k_dir" ]]; then
-        print_status "Installing Powerlevel10k theme..."
-        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$p10k_dir"
-        print_success "Powerlevel10k installed"
-    else
-        print_warning "Powerlevel10k already installed"
-    fi
-    
-    # Install useful zsh plugins
-    print_status "Installing useful zsh plugins..."
-    local plugins_dir="$HOME/.oh-my-zsh/custom/plugins"
-    
-    # zsh-autosuggestions
-    if [[ ! -d "$plugins_dir/zsh-autosuggestions" ]]; then
-        git clone https://github.com/zsh-users/zsh-autosuggestions "$plugins_dir/zsh-autosuggestions"
-    fi
-    
-    # zsh-syntax-highlighting
-    if [[ ! -d "$plugins_dir/zsh-syntax-highlighting" ]]; then
-        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$plugins_dir/zsh-syntax-highlighting"
-    fi
-    
-    # zsh-completions
-    if [[ ! -d "$plugins_dir/zsh-completions" ]]; then
-        git clone https://github.com/zsh-users/zsh-completions "$plugins_dir/zsh-completions"
-    fi
-    
-    print_success "Zsh plugins installed"
-    
-    # Set zsh as default shell
-    if [[ "$SHELL" != "$(which zsh)" ]]; then
-        print_status "Setting zsh as default shell..."
-        chsh -s "$(which zsh)"
-        print_success "Zsh set as default shell (will take effect on next login)"
-    else
-        print_warning "Zsh is already the default shell"
-    fi
+    print_success "Additional packages installation completed"
 }
 
 # Function to install Node.js and tools
@@ -235,11 +143,11 @@ setup_nodejs() {
     fi
 }
 
-# Function to install additional tools
-setup_additional_tools() {
-    print_header "INSTALLING ADDITIONAL TOOLS"
+# Function to install Spicetify
+setup_spicetify() {
+    print_header "SETTING UP SPICETIFY"
     
-    # Install Spicetify
+    # Install Spicetify if not available via package manager
     if ! command_exists spicetify; then
         print_status "Installing Spicetify..."
         curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
@@ -263,6 +171,7 @@ backup_existing_configs() {
         ".config/qt5ct" ".config/qt6ct" ".config/Kvantum"
         ".config/starship" ".config/fastfetch" ".config/cava"
         ".config/mpv" ".config/spicetify" ".config/hyde"
+        ".config/wlogout" ".config/swayidle"
     )
     
     local backed_up=false
@@ -350,6 +259,27 @@ install_dotfiles() {
     print_success "Dotfiles installation completed!"
 }
 
+# Function to run HyDE restore if available
+run_hyde_restore() {
+    print_header "RUNNING HYDE CONFIGURATION RESTORE"
+    
+    if [[ -f "$HOME/HyDE/Scripts/restore_cfg.sh" ]]; then
+        print_status "Running HyDE configuration restore..."
+        cd "$HOME/HyDE/Scripts"
+        
+        # Run HyDE restore script
+        if ./restore_cfg.sh; then
+            print_success "HyDE configuration restore completed"
+        else
+            print_warning "HyDE restore encountered issues, but continuing..."
+        fi
+        
+        cd "$DOTFILES_DIR"
+    else
+        print_warning "HyDE restore script not found - skipping HyDE restore"
+    fi
+}
+
 # Function to show final instructions
 show_final_instructions() {
     print_header "SETUP COMPLETED!"
@@ -357,32 +287,44 @@ show_final_instructions() {
     echo -e "${GREEN}🎉 Your system has been set up with your complete configuration!${NC}"
     echo ""
     print_status "What was installed:"
-    print_status "✓ All essential packages for your environment"
-    print_status "✓ Zsh with Oh My Zsh and Powerlevel10k"
-    print_status "✓ All your application configurations"
-    print_status "✓ Complete theme and appearance settings"
+    print_status "✓ Complete HyDE (Hyprland Desktop Environment)"
+    print_status "✓ All essential packages via HyDE installer"
+    print_status "✓ Your custom dotfiles and configurations"
     print_status "✓ Development tools and environments"
+    print_status "✓ Node.js and Spicetify"
     echo ""
     print_status "Next steps:"
-    print_status "1. Restart your terminal or run 'exec zsh'"
-    print_status "2. Run 'p10k configure' to set up Powerlevel10k"
-    print_status "3. Restart your window manager/desktop environment"
-    print_status "4. Open applications to verify configurations loaded correctly"
+    print_status "1. Restart your system (recommended for first-time HyDE setup)"
+    print_status "2. Choose Hyprland from your display manager login screen"
+    print_status "3. Your system should now be identical to your original setup!"
     echo ""
-    print_status "Your system should now be identical to your original setup!"
+    print_status "HyDE-specific features available:"
+    print_status "- Super+T: Change themes"
+    print_status "- Super+Shift+T: Toggle wallpaper"
+    print_status "- Super+Ctrl+T: Toggle waybar"
+    print_status "- Check KEYBINDINGS.md in HyDE directory for full list"
     echo ""
-    print_warning "Remember to:"
-    print_warning "- Update your Git configuration if needed"
-    print_warning "- Install any additional applications you use"
-    print_warning "- Set up your wallpapers and personal preferences"
+    print_warning "If you encounter any issues:"
+    print_warning "- Check HyDE documentation at ~/HyDE/"
+    print_warning "- Run 'Hyde restore' to restore HyDE configurations"
+    print_warning "- Check logs in ~/.cache/hyde/logs/"
 }
 
 # Main function
 main() {
     clear
-    print_header "COMPLETE SYSTEM SETUP"
+    print_header "COMPLETE HYDE + DOTFILES SETUP"
     echo -e "${BLUE}This script will set up your entire system to match your original configuration.${NC}"
-    echo -e "${BLUE}It will install packages, configure shell, and link all your dotfiles.${NC}"
+    echo -e "${BLUE}It will install HyDE (complete Hyprland environment) and your personal dotfiles.${NC}"
+    echo ""
+    echo -e "${YELLOW}This process includes:${NC}"
+    echo -e "${YELLOW}1. Installing HyDE (Hyprland Desktop Environment)${NC}"
+    echo -e "${YELLOW}2. Installing additional packages${NC}"
+    echo -e "${YELLOW}3. Setting up development environment${NC}"
+    echo -e "${YELLOW}4. Linking your personal dotfiles${NC}"
+    echo -e "${YELLOW}5. Running HyDE configuration restore${NC}"
+    echo ""
+    print_warning "This will take some time and requires internet connection"
     echo ""
     
     # Confirm before proceeding
@@ -394,12 +336,13 @@ main() {
     fi
     
     # Run all setup steps
-    install_essential_packages
-    setup_zsh
-    setup_nodejs
-    setup_additional_tools
     backup_existing_configs
+    install_hyde
+    install_additional_packages
+    setup_nodejs
+    setup_spicetify
     install_dotfiles
+    run_hyde_restore
     show_final_instructions
 }
 
