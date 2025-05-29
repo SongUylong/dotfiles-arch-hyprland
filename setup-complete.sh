@@ -95,6 +95,11 @@ install_additional_packages() {
             "ripgrep"          # Fast search
             "fd"               # Fast find
             "fzf"              # Fuzzy finder
+            "zsh"              # ZSH shell
+            "zsh-autosuggestions" # ZSH autosuggestions
+            "zsh-syntax-highlighting" # ZSH syntax highlighting
+            "zsh-completions"   # ZSH completions
+            "telegram-desktop"  # Telegram
         )
         
         sudo pacman -S --needed --noconfirm "${additional_packages[@]}" || print_warning "Some packages failed to install"
@@ -104,6 +109,7 @@ install_additional_packages() {
             print_status "Installing additional AUR packages..."
             local aur_packages=(
                 "visual-studio-code-bin"
+                "spotify"       # Spotify client
             )
             yay -S --needed --noconfirm "${aur_packages[@]}" || print_warning "Some AUR packages failed to install"
         fi
@@ -113,6 +119,89 @@ install_additional_packages() {
     fi
     
     print_success "Additional packages installation completed"
+}
+
+# Function to setup ZSH
+setup_zsh() {
+    print_header "SETTING UP ZSH"
+
+    # Install Oh My Zsh if not already installed
+    if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
+        print_status "Installing Oh My Zsh..."
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+    fi
+
+    # Install Powerlevel10k theme if not already installed
+    if [[ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k" ]]; then
+        print_status "Installing Powerlevel10k theme..."
+        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    fi
+
+    # Install zsh-autosuggestions if not already installed
+    if [[ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions" ]]; then
+        print_status "Installing zsh-autosuggestions..."
+        git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    fi
+
+    # Install zsh-syntax-highlighting if not already installed
+    if [[ ! -d "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting" ]]; then
+        print_status "Installing zsh-syntax-highlighting..."
+        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    fi
+
+    print_success "ZSH setup completed"
+}
+
+# Function to setup WezTerm
+setup_wezterm() {
+    print_header "SETTING UP WEZTERM"
+
+    # Create WezTerm config directory
+    mkdir -p "$HOME/.config/wezterm"
+
+    # Create basic WezTerm configuration if it doesn't exist
+    if [[ ! -f "$HOME/.config/wezterm/wezterm.lua" ]]; then
+        print_status "Creating WezTerm configuration..."
+        cat > "$HOME/.config/wezterm/wezterm.lua" << 'EOL'
+local wezterm = require 'wezterm'
+
+local config = {}
+
+if wezterm.config_builder then
+  config = wezterm.config_builder()
+end
+
+-- Color scheme and appearance
+config.color_scheme = 'Catppuccin Mocha'
+config.window_background_opacity = 0.95
+config.font = wezterm.font('JetBrainsMono Nerd Font')
+config.font_size = 12
+config.enable_tab_bar = true
+config.hide_tab_bar_if_only_one_tab = true
+config.window_padding = {
+  left = 5,
+  right = 5,
+  top = 5,
+  bottom = 5,
+}
+
+-- Shell configuration
+config.default_prog = { '/usr/bin/zsh' }
+
+return config
+EOL
+    fi
+
+    # Install JetBrains Mono Nerd Font if not already installed
+    if ! fc-list | grep -i "JetBrainsMono Nerd Font" > /dev/null; then
+        print_status "Installing JetBrains Mono Nerd Font..."
+        mkdir -p "$HOME/.local/share/fonts"
+        curl -fLo "$HOME/.local/share/fonts/JetBrains Mono Regular Nerd Font Complete.ttf" \
+            https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf
+        fc-cache -f -v
+    fi
+
+    print_success "WezTerm setup completed"
 }
 
 # Function to install dotfiles
@@ -175,12 +264,17 @@ show_final_instructions() {
     echo ""
     print_status "What was installed:"
     print_status "✓ HyDE (Hyprland Desktop Environment)"
-    print_status "✓ Additional packages (WezTerm, Firefox, Neovim, etc.)"
+    print_status "✓ WezTerm (with plugins and configuration)"
+    print_status "✓ ZSH (with Oh My Zsh, Powerlevel10k, and plugins)"
+    print_status "✓ Applications (Spotify, Telegram, Firefox, etc.)"
+    print_status "✓ Development tools (Neovim, VS Code, etc.)"
     print_status "✓ Your personal dotfiles"
     echo ""
     print_status "Next steps:"
     print_status "1. Restart your system to ensure all changes take effect"
     print_status "2. Choose Hyprland from your display manager login screen"
+    print_status "3. Open WezTerm and follow Powerlevel10k setup if prompted"
+    print_status "4. Log into your Spotify and Telegram accounts"
     echo ""
     print_warning "If you encounter any issues:"
     print_warning "- Check HyDE documentation at ~/HyDE/"
@@ -195,7 +289,9 @@ main() {
     echo -e "${BLUE}This script will:${NC}"
     echo -e "${YELLOW}1. Install HyDE (Hyprland Desktop Environment)${NC}"
     echo -e "${YELLOW}2. Install additional packages${NC}"
-    echo -e "${YELLOW}3. Install your personal dotfiles${NC}"
+    echo -e "${YELLOW}3. Setup ZSH with plugins${NC}"
+    echo -e "${YELLOW}4. Setup WezTerm with configuration${NC}"
+    echo -e "${YELLOW}5. Install your personal dotfiles${NC}"
     echo ""
     print_warning "This will take some time and requires internet connection"
     print_warning "You will need to interact with the HyDE installer"
@@ -212,6 +308,8 @@ main() {
     # Run setup steps
     install_hyde
     install_additional_packages
+    setup_zsh
+    setup_wezterm
     install_dotfiles
     show_final_instructions
 }
