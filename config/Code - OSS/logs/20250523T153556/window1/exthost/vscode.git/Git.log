@@ -1,0 +1,307 @@
+2025-05-23 15:35:58.215 [info] [main] Log level: Info
+2025-05-23 15:35:58.215 [info] [main] Validating found git in: "git"
+2025-05-23 15:35:58.215 [info] [main] Using git "2.49.0" from "git"
+2025-05-23 15:35:58.215 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-23 15:35:58.215 [info] > git rev-parse --show-toplevel [6ms]
+2025-05-23 15:35:58.215 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.215 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-23 15:35:58.215 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.215 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-23 15:35:58.215 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.216 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.217 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.224 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.224 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.329 [info] > git rev-parse --show-toplevel [100ms]
+2025-05-23 15:35:58.329 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.345 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-23 15:35:58.345 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.361 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-23 15:35:58.361 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.380 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-23 15:35:58.380 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.387 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:35:58.393 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-05-23 15:35:58.401 [info] [Model][openRepository] Opened repository (path): /home/uylong/.oh-my-zsh
+2025-05-23 15:35:58.401 [info] [Model][openRepository] Opened repository (real path): /home/uylong/.oh-my-zsh
+2025-05-23 15:35:58.414 [info] > git config --get commit.template [5ms]
+2025-05-23 15:35:58.415 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:35:58.415 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-05-23 15:35:58.427 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:35:58.427 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.447 [info] > git rev-parse --show-toplevel [14ms]
+2025-05-23 15:35:58.447 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.452 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-05-23 15:35:58.453 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:35:58.453 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.459 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-23 15:35:58.459 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.466 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.466 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.472 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.472 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.477 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.477 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.483 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.483 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.489 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:58.496 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-05-23 15:35:58.499 [info] [Model][openRepository] Opened repository (path): /home/uylong/HyDE
+2025-05-23 15:35:58.499 [info] [Model][openRepository] Opened repository (real path): /home/uylong/HyDE
+2025-05-23 15:35:58.510 [info] > git config --get commit.template [4ms]
+2025-05-23 15:35:58.511 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:35:58.511 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.522 [info] > git status -z -uall [82ms]
+2025-05-23 15:35:58.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-05-23 15:35:58.534 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:35:58.554 [info] > git rev-parse --show-toplevel [34ms]
+2025-05-23 15:35:58.554 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-05-23 15:35:58.571 [info] > git rev-parse refs/remotes/origin/master [37ms]
+2025-05-23 15:35:58.585 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-05-23 15:35:58.585 [info] > git config --get --local branch.master.vscode-merge-base [14ms]
+2025-05-23 15:35:58.590 [info] > git rev-parse --show-toplevel [26ms]
+2025-05-23 15:35:58.590 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.590 [info] > git config --get commit.template [31ms]
+2025-05-23 15:35:58.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [7ms]
+2025-05-23 15:35:58.608 [info] > git rev-parse --show-toplevel [11ms]
+2025-05-23 15:35:58.608 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-05-23 15:35:58.636 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2025-05-23 15:35:58.644 [info] > git diff --name-status -z --diff-filter=ADMR 0354add542b6d769dbe39e10eb0caa0a11b2b716...refs/remotes/origin/master [3ms]
+2025-05-23 15:35:58.644 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-23 15:35:58.644 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.644 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-23 15:35:58.660 [info] > git rev-parse --show-toplevel [10ms]
+2025-05-23 15:35:58.660 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:35:58.661 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 15:35:58.681 [info] > git status -z -uall [26ms]
+2025-05-23 15:35:58.898 [info] > git status -z -uall [323ms]
+2025-05-23 15:35:58.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-05-23 15:35:58.919 [info] > git config --get commit.template [8ms]
+2025-05-23 15:35:58.925 [info] > git config --get --local branch.master.vscode-merge-base [7ms]
+2025-05-23 15:35:58.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-05-23 15:35:58.936 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:35:58.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2025-05-23 15:35:58.942 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-05-23 15:35:58.960 [info] > git merge-base refs/heads/master refs/remotes/origin/master [18ms]
+2025-05-23 15:35:58.967 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-05-23 15:35:58.968 [info] > git diff --name-status -z --diff-filter=ADMR 4eccc3243c967054508e4c78b5c58cf7d06164ae...refs/remotes/origin/master [2ms]
+2025-05-23 15:35:59.202 [info] > git status -z -uall [255ms]
+2025-05-23 15:35:59.856 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:35:59.856 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:37.606 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:38:37.606 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:38.234 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:38:38.234 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:39.302 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:38:39.303 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:40.123 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:38:40.123 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:42.523 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:38:42.523 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:38:45.951 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:38:49.714 [info] > git rev-parse --show-toplevel [16ms]
+2025-05-23 15:38:49.714 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:39:14.832 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:39:30.403 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:39:30.403 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:39:31.390 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:39:31.390 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:39:31.936 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-23 15:39:33.678 [info] > git check-ignore -v -z --stdin [4ms]
+2025-05-23 15:39:40.627 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-23 15:39:41.900 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:39:44.710 [info] > git show --textconv :Configs/.config/fastfetch/config.jsonc [9ms]
+2025-05-23 15:39:44.712 [info] > git ls-files --stage -- Configs/.config/fastfetch/config.jsonc [2ms]
+2025-05-23 15:39:44.722 [info] > git cat-file -s 414ec80dda361da7a151664ffff9bb04ddc62351 [2ms]
+2025-05-23 15:40:02.933 [info] > git blame --root --incremental 4eccc3243c967054508e4c78b5c58cf7d06164ae -- Configs/.config/fastfetch/config.jsonc [2ms]
+2025-05-23 15:40:14.475 [info] > git config --get commit.template [9ms]
+2025-05-23 15:40:14.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 15:40:14.483 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:40:14.484 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:40:14.506 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 15:40:14.771 [info] > git status -z -uall [278ms]
+2025-05-23 15:40:58.758 [info] > git config --get commit.template [7ms]
+2025-05-23 15:40:58.759 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-23 15:40:58.767 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:40:58.767 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:40:58.786 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-05-23 15:40:59.046 [info] > git status -z -uall [272ms]
+2025-05-23 15:41:16.848 [info] > git config --get commit.template [10ms]
+2025-05-23 15:41:16.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 15:41:16.853 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:41:16.854 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:41:16.869 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 15:41:17.113 [info] > git status -z -uall [253ms]
+2025-05-23 15:41:26.419 [info] > git config --get commit.template [6ms]
+2025-05-23 15:41:26.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-05-23 15:41:26.426 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:41:26.427 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:41:26.439 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-23 15:41:26.696 [info] > git status -z -uall [263ms]
+2025-05-23 15:41:44.803 [info] > git config --get commit.template [6ms]
+2025-05-23 15:41:44.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 15:41:44.811 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:41:44.812 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:41:44.826 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-23 15:41:45.080 [info] > git status -z -uall [262ms]
+2025-05-23 15:41:59.232 [info] > git config --get commit.template [0ms]
+2025-05-23 15:41:59.241 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-05-23 15:41:59.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/uylong/HyDE/.git/refs/remotes/origin/master'
+2025-05-23 15:41:59.250 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2025-05-23 15:41:59.267 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-23 15:41:59.520 [info] > git status -z -uall [262ms]
+2025-05-23 15:42:12.081 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-23 15:42:12.082 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:42:15.024 [info] > git rev-parse --show-toplevel [9ms]
+2025-05-23 15:42:15.025 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:42:30.161 [info] > git check-ignore -v -z --stdin [6ms]
+2025-05-23 15:42:31.333 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-23 15:42:31.333 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:42:41.323 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:42:41.323 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:44:17.716 [info] > git ls-files --stage -- Configs/.config/fastfetch/config.jsonc [2ms]
+2025-05-23 15:44:17.725 [info] > git show --textconv :Configs/.config/fastfetch/config.jsonc [20ms]
+2025-05-23 15:44:17.727 [info] > git cat-file -s 414ec80dda361da7a151664ffff9bb04ddc62351 [3ms]
+2025-05-23 15:44:28.975 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:44:32.026 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:44:40.994 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 15:44:41.685 [info] > git show --textconv :Configs/.config/hyde/wallbash/theme/code.dcol [7ms]
+2025-05-23 15:44:41.686 [info] > git ls-files --stage -- Configs/.config/hyde/wallbash/theme/code.dcol [1ms]
+2025-05-23 15:44:41.694 [info] > git cat-file -s c8a52eef0bdb685d682386d00a2db8455a7eb5cf [2ms]
+2025-05-23 15:44:46.401 [info] > git show --textconv :Configs/.config/hyde/config.toml [7ms]
+2025-05-23 15:44:46.402 [info] > git ls-files --stage -- Configs/.config/hyde/config.toml [2ms]
+2025-05-23 15:44:46.409 [info] > git cat-file -s 846579550a182eb6d515dfad3b41b93910ecf03b [1ms]
+2025-05-23 15:45:20.992 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:45:20.992 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:51:14.306 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:51:14.306 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:59:35.580 [info] > git rev-parse --show-toplevel [7ms]
+2025-05-23 15:59:35.580 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:59:36.599 [info] > git rev-parse --show-toplevel [0ms]
+2025-05-23 15:59:36.599 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:59:39.022 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:59:39.022 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:59:41.832 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-23 15:59:41.832 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 15:59:43.611 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 15:59:43.611 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 16:02:46.326 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 16:02:46.326 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 16:02:55.714 [info] > git rev-parse --show-toplevel [1ms]
+2025-05-23 16:02:55.714 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-05-23 16:03:12.363 [info] > git show --textconv :CONTRIBUTING.md [5ms]
+2025-05-23 16:03:12.363 [info] > git ls-files --stage -- CONTRIBUTING.md [1ms]
+2025-05-23 16:03:12.369 [info] > git cat-file -s e65d5a2db10db4aaa5286713bd4666090f07621d [1ms]
+2025-05-23 16:03:21.593 [info] > git show --textconv :Configs/.config/fastfetch/config.jsonc [11ms]
+2025-05-23 16:03:21.594 [info] > git ls-files --stage -- Configs/.config/fastfetch/config.jsonc [3ms]
+2025-05-23 16:03:21.604 [info] > git cat-file -s 414ec80dda361da7a151664ffff9bb04ddc62351 [2ms]
+2025-05-23 16:06:16.059 [info] > git show --textconv :Configs/.config/spotify-flags.conf [9ms]
+2025-05-23 16:06:16.060 [info] > git ls-files --stage -- Configs/.config/spotify-flags.conf [2ms]
+2025-05-23 16:06:16.069 [info] > git cat-file -s 54068de19a2d4fd8d6d57ba08f50c11883585abf [2ms]
+2025-05-23 16:06:23.098 [info] > git check-ignore -v -z --stdin [10ms]
+2025-05-23 16:06:24.323 [info] > git show --textconv :Configs/.config/starship/starship.toml [9ms]
+2025-05-23 16:06:24.324 [info] > git ls-files --stage -- Configs/.config/starship/starship.toml [2ms]
+2025-05-23 16:06:24.333 [info] > git cat-file -s 57a94ef3adedb61251d24b8234a9936f9d49d6bf [2ms]
+2025-05-23 16:06:30.403 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 16:06:31.162 [info] > git show --textconv :Configs/.config/VSCodium/User/settings.json [5ms]
+2025-05-23 16:06:31.163 [info] > git ls-files --stage -- Configs/.config/VSCodium/User/settings.json [2ms]
+2025-05-23 16:06:31.168 [info] > git cat-file -s 16496839fe20752a7b11ad049e86b5fe55bc10f6 [1ms]
+2025-05-23 16:06:41.805 [info] > git show --textconv :Configs/.config/libinput-gestures.conf [8ms]
+2025-05-23 16:06:41.806 [info] > git ls-files --stage -- Configs/.config/libinput-gestures.conf [2ms]
+2025-05-23 16:06:41.813 [info] > git cat-file -s c58867355ffe375be7d097e1bc4d2a78040369fe [2ms]
+2025-05-23 16:06:49.571 [info] > git show --textconv :COMMIT_MESSAGE_GUIDELINES.md [10ms]
+2025-05-23 16:06:49.572 [info] > git ls-files --stage -- COMMIT_MESSAGE_GUIDELINES.md [2ms]
+2025-05-23 16:06:49.583 [info] > git cat-file -s 642335c838090bb5d09b24e55bf6ef1490949cca [3ms]
+2025-05-23 16:06:52.451 [info] > git show --textconv :CONTRIBUTORS.md [11ms]
+2025-05-23 16:06:52.452 [info] > git ls-files --stage -- CONTRIBUTORS.md [4ms]
+2025-05-23 16:06:52.463 [info] > git cat-file -s 1fea10635cc62d172a088156cc61d0119f1ccb39 [2ms]
+2025-05-23 16:06:55.492 [info] > git ls-files --stage -- Hyprdots-to-HyDE.md [2ms]
+2025-05-23 16:06:55.501 [info] > git show --textconv :Hyprdots-to-HyDE.md [17ms]
+2025-05-23 16:06:55.502 [info] > git cat-file -s 83d96a246b7b95e3dc86ff4ecc9ad51598442264 [2ms]
+2025-05-23 16:07:00.026 [info] > git show --textconv :KEYBINDINGS.md [12ms]
+2025-05-23 16:07:00.027 [info] > git ls-files --stage -- KEYBINDINGS.md [1ms]
+2025-05-23 16:07:00.034 [info] > git cat-file -s c0bcb738da6d25977543f8dea8aefdf479c143c5 [2ms]
+2025-05-23 16:07:03.896 [info] > git show --textconv :LICENSE [8ms]
+2025-05-23 16:07:03.898 [info] > git ls-files --stage -- LICENSE [2ms]
+2025-05-23 16:07:03.906 [info] > git cat-file -s f288702d2fa16d3cdf0035b15a9fcbc552cd88e7 [2ms]
+2025-05-23 16:07:05.691 [info] > git show --textconv :README.md [11ms]
+2025-05-23 16:07:05.692 [info] > git ls-files --stage -- README.md [2ms]
+2025-05-23 16:07:05.701 [info] > git cat-file -s 4b5b7b9efb47a2f948da97b506abb26bf0a8b16e [3ms]
+2025-05-23 16:07:07.392 [info] > git show --textconv :RELEASE_POLICY.md [9ms]
+2025-05-23 16:07:07.393 [info] > git ls-files --stage -- RELEASE_POLICY.md [2ms]
+2025-05-23 16:07:07.401 [info] > git cat-file -s 2fb891ed3c8c0c94f39ac70523c88a6c9bcd2974 [2ms]
+2025-05-23 16:07:08.217 [info] > git show --textconv :TEAM_ROLES.md [10ms]
+2025-05-23 16:07:08.217 [info] > git ls-files --stage -- TEAM_ROLES.md [2ms]
+2025-05-23 16:07:08.227 [info] > git cat-file -s 512ae3ed93386e84e0946cc5db5e1a73f6c449b1 [2ms]
+2025-05-23 16:07:09.105 [info] > git show --textconv :TESTING.md [10ms]
+2025-05-23 16:07:09.107 [info] > git ls-files --stage -- TESTING.md [3ms]
+2025-05-23 16:07:09.118 [info] > git cat-file -s fe76c11bb7f057557308787dbf7d5ebf3f77ccb5 [2ms]
+2025-05-23 16:08:50.597 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 16:08:52.827 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 16:08:53.326 [info] > git show --textconv :.github/scripts/promote_to_master.sh [9ms]
+2025-05-23 16:08:53.327 [info] > git ls-files --stage -- .github/scripts/promote_to_master.sh [2ms]
+2025-05-23 16:08:53.336 [info] > git cat-file -s f75c7386c7016d96e874a23deed2bb2c47c11621 [2ms]
+2025-05-23 16:08:55.574 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-23 16:08:58.755 [info] > git show --textconv :.github/ISSUE_TEMPLATE/feature_request.yml [8ms]
+2025-05-23 16:08:58.756 [info] > git ls-files --stage -- .github/ISSUE_TEMPLATE/feature_request.yml [1ms]
+2025-05-23 16:08:58.762 [info] > git cat-file -s f79ba892061b4959455d12b7271fa4bf140cb58f [2ms]
+2025-05-23 16:10:07.912 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-23 16:10:08.837 [info] > git check-ignore -v -z --stdin [1ms]
+2025-05-23 16:10:09.192 [info] > git show --textconv :Configs/.config/vim/colors/wallbash.vim [8ms]
+2025-05-23 16:10:09.193 [info] > git ls-files --stage -- Configs/.config/vim/colors/wallbash.vim [2ms]
+2025-05-23 16:10:09.201 [info] > git cat-file -s e532a7c17e84e17ad44ec510d033beda91c3c600 [1ms]
+2025-05-23 16:10:11.591 [info] > git show --textconv :Configs/.config/vim/hyde.vim [8ms]
+2025-05-23 16:10:11.592 [info] > git ls-files --stage -- Configs/.config/vim/hyde.vim [1ms]
+2025-05-23 16:10:11.601 [info] > git cat-file -s 1bf904ffe67f9ba6d39dafc5043bdd00fc551807 [3ms]
+2025-05-23 16:10:12.953 [info] > git show --textconv :Configs/.config/vim/vimrc [8ms]
+2025-05-23 16:10:12.955 [info] > git ls-files --stage -- Configs/.config/vim/vimrc [2ms]
+2025-05-23 16:10:12.963 [info] > git cat-file -s 26533328d50612786ce69ce19778e16180a9bed3 [3ms]

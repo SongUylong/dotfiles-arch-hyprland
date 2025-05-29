@@ -1,0 +1,115 @@
+2025-05-28 22:24:35.174 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-28 22:24:35.174 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-28 22:24:35.174 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-28 22:24:35.414 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-05-28 22:26:08.325 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:08.325 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:08.325 [error] NoWorkspaceUriError
+2025-05-28 22:26:08.652 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:08.652 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:08.652 [error] NoWorkspaceUriError
+2025-05-28 22:26:09.063 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:09.063 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:09.063 [error] NoWorkspaceUriError
+2025-05-28 22:26:09.342 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:09.342 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:09.342 [error] NoWorkspaceUriError
+2025-05-28 22:26:09.675 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:09.675 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:09.675 [error] NoWorkspaceUriError
+2025-05-28 22:26:10.087 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:10.087 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:10.087 [error] NoWorkspaceUriError
+2025-05-28 22:26:10.701 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:10.701 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:10.701 [error] NoWorkspaceUriError
+2025-05-28 22:26:11.115 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:11.115 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:11.115 [error] NoWorkspaceUriError
+2025-05-28 22:26:11.525 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:11.525 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:11.525 [error] NoWorkspaceUriError
+2025-05-28 22:26:11.939 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:11.939 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:11.939 [error] NoWorkspaceUriError
+2025-05-28 22:26:12.348 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:12.348 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:12.348 [error] NoWorkspaceUriError
+2025-05-28 22:26:12.621 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:12.621 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:12.621 [error] NoWorkspaceUriError
+2025-05-28 22:26:13.156 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:13.156 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:13.156 [error] NoWorkspaceUriError
+2025-05-28 22:26:13.443 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:13.443 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:13.443 [error] NoWorkspaceUriError
+2025-05-28 22:26:13.774 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:13.774 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:13.774 [error] NoWorkspaceUriError
+2025-05-28 22:26:14.177 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:14.177 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:14.178 [error] NoWorkspaceUriError
+2025-05-28 22:26:14.800 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:14.800 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:14.801 [error] NoWorkspaceUriError
+2025-05-28 22:26:15.206 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:15.206 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:15.206 [error] NoWorkspaceUriError
+2025-05-28 22:26:15.614 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:15.614 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:15.614 [error] NoWorkspaceUriError
+2025-05-28 22:26:16.042 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:16.042 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:16.042 [error] NoWorkspaceUriError
+2025-05-28 22:26:16.054 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:16.054 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:16.054 [error] NoWorkspaceUriError
+2025-05-28 22:26:16.645 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:16.645 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:16.645 [error] NoWorkspaceUriError
+2025-05-28 22:26:17.122 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:17.122 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:17.122 [error] NoWorkspaceUriError
+2025-05-28 22:26:17.538 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:17.538 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:17.538 [error] NoWorkspaceUriError
+2025-05-28 22:26:17.667 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:17.667 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:17.667 [error] NoWorkspaceUriError
+2025-05-28 22:26:17.940 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:17.940 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:17.940 [error] NoWorkspaceUriError
+2025-05-28 22:26:18.278 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:18.278 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:18.278 [error] NoWorkspaceUriError
+2025-05-28 22:26:18.970 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:18.970 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:18.970 [error] NoWorkspaceUriError
+2025-05-28 22:26:19.307 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:19.307 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:19.307 [error] NoWorkspaceUriError
+2025-05-28 22:26:19.713 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:19.713 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:19.713 [error] NoWorkspaceUriError
+2025-05-28 22:26:19.997 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:19.997 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:19.998 [error] NoWorkspaceUriError
+2025-05-28 22:26:20.411 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-28 22:26:20.411 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-28 22:26:20.411 [error] NoWorkspaceUriError
+2025-05-28 22:26:32.276 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-28 22:26:32.276 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-05-28 22:26:32.314 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-28 22:26:32.324 [warning] Failed to get default branch from git config: Failed to execute git

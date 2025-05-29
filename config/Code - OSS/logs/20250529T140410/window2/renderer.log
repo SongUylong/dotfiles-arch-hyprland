@@ -1,0 +1,5 @@
+2025-05-29 14:04:10.779 [info] Started local extension host with pid 413418.
+2025-05-29 14:04:10.903 [info] ComputeTargetPlatform: linux-x64
+2025-05-29 14:04:13.562 [info] [perf] Render performance baseline is 20ms
+2025-05-29 14:04:16.761 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/uylong/.config/joplin/tmp/28ca8a5f56f24fb288bd0f6b48aef637.md 
+2025-05-29 14:04:16.780 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/uylong/.config/joplin/tmp/28ca8a5f56f24fb288bd0f6b48aef637.md 

@@ -1,0 +1,42 @@
+2025-05-27 09:37:21: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:30: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:36: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:37: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:37: Sending message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/uylong/.config/joplin-desktop","argv":["/tmp/.mount_JoplinzUeZHk/joplin"]},"secretKey":"kTYqJdttsjpU8pzGcbFXYAu3VMuvsQLWsGgcykGvfeKzdpha4IaT5Uh5YV4YaPXo"}
+2025-05-27 13:18:37: Got message: {"action":"onSecondInstance","data":{"senderPort":2659,"profilePath":"/home/uylong/.config/joplin-desktop","argv":["/tmp/.mount_JoplinzUeZHk/joplin"]},"secretKey":"kTYqJdttsjpU8pzGcbFXYAu3VMuvsQLWsGgcykGvfeKzdpha4IaT5Uh5YV4YaPXo","sourcePort":2659}
+2025-05-27 13:18:37: [error] Could not send message on port 2658: FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+    at /tmp/.mount_JoplinzUeZHk/resources/app.asar/node_modules/@joplin/utils/node_modules/node-fetch/lib/index.js:273:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async sendMessage (/tmp/.mount_JoplinzUeZHk/resources/app.asar/node_modules/@joplin/utils/dist/ipc.js:189:27)
+    at async ElectronAppWrapper.sendCrossAppIpcMessage (/tmp/.mount_JoplinzUeZHk/resources/app.asar/ElectronAppWrapper.js:512:20)
+    at async ElectronAppWrapper.ensureSingleInstance (/tmp/.mount_JoplinzUeZHk/resources/app.asar/ElectronAppWrapper.js:618:13)
+    at async ElectronAppWrapper.start (/tmp/.mount_JoplinzUeZHk/resources/app.asar/ElectronAppWrapper.js:641:32)
+2025-05-27 13:18:37: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:40: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:18:40: Sending message: {"action":"onSecondInstance","data":{"senderPort":2660,"profilePath":"/home/uylong/.config/joplin-desktop","argv":["/tmp/.mount_Joplin70edkU/joplin"]},"secretKey":"kTYqJdttsjpU8pzGcbFXYAu3VMuvsQLWsGgcykGvfeKzdpha4IaT5Uh5YV4YaPXo"}
+2025-05-27 13:18:40: Got message: {"action":"onSecondInstance","data":{"senderPort":2660,"profilePath":"/home/uylong/.config/joplin-desktop","argv":["/tmp/.mount_Joplin70edkU/joplin"]},"secretKey":"kTYqJdttsjpU8pzGcbFXYAu3VMuvsQLWsGgcykGvfeKzdpha4IaT5Uh5YV4YaPXo","sourcePort":2660}
+2025-05-27 13:18:40: [error] Could not send message on port 2658: FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2658/ reason: Unexpected end of JSON input
+    at /tmp/.mount_Joplin70edkU/resources/app.asar/node_modules/@joplin/utils/node_modules/node-fetch/lib/index.js:273:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async sendMessage (/tmp/.mount_Joplin70edkU/resources/app.asar/node_modules/@joplin/utils/dist/ipc.js:189:27)
+    at async ElectronAppWrapper.sendCrossAppIpcMessage (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:512:20)
+    at async ElectronAppWrapper.ensureSingleInstance (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:618:13)
+    at async ElectronAppWrapper.start (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:641:32)
+2025-05-27 13:18:40: Got message: {"action":"onSecondInstance","data":{"senderPort":2660,"profilePath":"/home/uylong/.config/joplin-desktop","argv":["/tmp/.mount_Joplin70edkU/joplin"]},"secretKey":"kTYqJdttsjpU8pzGcbFXYAu3VMuvsQLWsGgcykGvfeKzdpha4IaT5Uh5YV4YaPXo","sourcePort":2660}
+2025-05-27 13:18:40: [error] Could not send message on port 2659: FetchError: invalid json response body at http://localhost:2659/ reason: Unexpected end of JSON input
+FetchError: invalid json response body at http://localhost:2659/ reason: Unexpected end of JSON input
+    at /tmp/.mount_Joplin70edkU/resources/app.asar/node_modules/@joplin/utils/node_modules/node-fetch/lib/index.js:273:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async sendMessage (/tmp/.mount_Joplin70edkU/resources/app.asar/node_modules/@joplin/utils/dist/ipc.js:189:27)
+    at async ElectronAppWrapper.sendCrossAppIpcMessage (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:512:20)
+    at async ElectronAppWrapper.ensureSingleInstance (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:618:13)
+    at async ElectronAppWrapper.start (/tmp/.mount_Joplin70edkU/resources/app.asar/ElectronAppWrapper.js:641:32)
+2025-05-27 13:19:46: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 13:24:12: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-27 15:20:33: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-28 18:52:33: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-28 23:05:43: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-29 09:54:47: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-29 18:42:18: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt

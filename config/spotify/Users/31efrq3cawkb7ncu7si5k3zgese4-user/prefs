@@ -1,0 +1,8 @@
+audio.allow_downgrade=false
+connect.mdns_devices="[]"
+connect.dial_devices="[]"
+audio.play_bitrate_non_metered_migrated=true
+audio.normalize_v2=false
+ui.track_notifications_enabled=false
+app.browser.zoom-level=150
+audio.automix=false

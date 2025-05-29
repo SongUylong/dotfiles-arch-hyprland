@@ -1,0 +1,5 @@
+2025-05-24 13:42:08.661 [info] Extension host with pid 204488 started
+2025-05-24 13:42:08.661 [info] Skipping acquiring lock for /home/uylong/.config/Code - OSS/User/workspaceStorage/9ce6b1782c14b974ac28499080a84c9a.
+2025-05-24 13:42:08.767 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-24 13:42:08.837 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-24 13:42:08.841 [info] Extension host with pid 204488 exiting with code 0

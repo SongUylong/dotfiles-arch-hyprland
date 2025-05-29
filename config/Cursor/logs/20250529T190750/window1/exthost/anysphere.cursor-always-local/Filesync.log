@@ -1,0 +1,66 @@
+2025-05-29 19:07:53.168 [error] Failed to check if file sync is enabled for user {}
+2025-05-29 19:07:53.168 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-29 19:07:53.168 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-29 19:07:53.409 [info] [registerEventListeners] Registering event listeners
+2025-05-29 19:07:54.954 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:07:55.405 [info] Fetched fsConfig in 449.44271200000003ms
+2025-05-29 19:07:55.406 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-29 19:07:57.500 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:07:59.996 [error] Failed to check if file sync is enabled for user {}
+2025-05-29 19:07:59.996 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-29 19:07:59.996 [error] Failed to fetch fsConfig File sync is disabled
+2025-05-29 19:08:00.245 [info] [registerEventListeners] Registering event listeners
+2025-05-29 19:08:01.950 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:08:02.412 [info] Fetched fsConfig in 456.22522800000024ms
+2025-05-29 19:08:02.412 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-29 19:08:04.906 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:08:05.773 [info] Fetched fsConfig in 866.9769480000004ms
+2025-05-29 19:08:05.773 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-29 19:08:05.773 [info] File sync enabled status: true
+2025-05-29 19:08:05.773 [info] Starting sync of visible tabs
+2025-05-29 19:08:05.773 [info] Synced all visible tabs in 0.02560300000004645ms
+2025-05-29 19:08:06.274 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:08:06.419 [info] Starting sync of visible tabs
+2025-05-29 19:08:06.419 [info] Synced all visible tabs in 0.12462300000061077ms
+2025-05-29 19:08:06.780 [info] Fetched fsConfig in 506.18072699999993ms
+2025-05-29 19:08:06.780 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-29 19:08:06.780 [info] File sync enabled status: true
+2025-05-29 19:08:06.780 [info] Starting sync of visible tabs
+2025-05-29 19:08:06.780 [info] Synced all visible tabs in 0.03740099999959057ms
+2025-05-29 19:08:06.858 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-05-29 19:08:07.395 [info] Fetched fsConfig in 536.5665759999993ms
+2025-05-29 19:08:07.395 [info] FSConfig response: {"checkFilesyncHashPercent":0.004999999888241291,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-05-29 19:10:20.005 [info] Handled visible editors change in 0.6681039999821223ms
+2025-05-29 19:13:04.004 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 929.6733830000157ms
+2025-05-29 19:13:04.006 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 933.747595999972ms
+2025-05-29 19:13:04.008 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 937.426615000004ms
+2025-05-29 19:13:04.009 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 933.0697749999817ms
+2025-05-29 19:13:04.131 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 223.3386290000053ms
+2025-05-29 19:13:04.133 [info] Uploaded file dotfiles/install.sh modelVersion=4 in 224.32990899996366ms
+2025-05-29 19:13:20.666 [info] Uploaded file dotfiles/backup-current.sh modelVersion=2 in 332.7830069999909ms
+2025-05-29 19:13:20.667 [info] Uploaded file dotfiles/backup-current.sh modelVersion=2 in 332.21523999999044ms
+2025-05-29 19:13:20.668 [info] Uploaded file dotfiles/backup-current.sh modelVersion=4 in 315.0526250000112ms
+2025-05-29 19:13:20.669 [info] Uploaded file dotfiles/backup-current.sh modelVersion=4 in 316.91064799996093ms
+2025-05-29 19:13:43.169 [info] Handled visible editors change in 0.6127059999853373ms
+2025-05-29 19:13:43.193 [info] Handled visible editors change in 0.5466650000307709ms
+2025-05-29 19:13:58.200 [info] Handled visible editors change in 0.6164090000092983ms
+2025-05-29 19:13:58.841 [info] Handled visible editors change in 0.18333099997835234ms
+2025-05-29 19:14:00.645 [info] Handled visible editors change in 0.6102759999921545ms
+2025-05-29 19:14:05.667 [info] Handled visible editors change in 0.30871499999193475ms
+2025-05-29 19:14:13.329 [warning] Failed to sync full file dotfiles/home/.zshenv, version=1, retrying (attempt 1) [unknown] Network timeout
+2025-05-29 19:14:14.210 [info] Uploaded file dotfiles/home/.zshenv modelVersion=1 in 859.6020090000238ms
+2025-05-29 19:14:14.210 [info] Handled visible editors change in 15955.896726999956ms
+2025-05-29 19:14:15.743 [warning] Failed to sync full file dotfiles/home/.gitconfig, version=1, retrying (attempt 1) [unknown] Network timeout
+2025-05-29 19:14:16.039 [info] Uploaded file dotfiles/home/.gitconfig modelVersion=1 in 274.3581530000083ms
+2025-05-29 19:14:16.039 [info] Handled visible editors change in 10333.545328999986ms
+2025-05-29 19:14:29.660 [info] Handled visible editors change in 0.4498879999737255ms
+2025-05-29 19:14:30.067 [info] Uploaded file dotfiles/home/.zshrc modelVersion=1 in 331.9721610000124ms
+2025-05-29 19:14:30.067 [info] Handled visible editors change in 371.7750399999786ms
+2025-05-29 19:14:30.697 [info] Handled visible editors change in 0.5059760000440292ms
+2025-05-29 19:14:30.723 [info] Handled visible editors change in 0.32195800001500174ms
+2025-05-29 19:14:34.358 [info] Handled visible editors change in 0.4319179999874905ms
+2025-05-29 19:14:34.827 [info] Uploaded file dotfiles/home/.p10k.zsh modelVersion=1 in 397.27917100000195ms
+2025-05-29 19:14:34.828 [info] Handled visible editors change in 431.23933700000634ms
+2025-05-29 19:14:49.403 [info] Handled visible editors change in 0.4769260000321083ms
+2025-05-29 19:14:50.048 [info] Uploaded file dotfiles/config/hypr/keybindings.conf modelVersion=1 in 472.2166519999737ms
+2025-05-29 19:14:50.048 [info] Handled visible editors change in 559.8128789999755ms

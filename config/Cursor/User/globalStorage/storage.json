@@ -1,0 +1,68 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "1d0c7e3f1814b8ded2f077f565e73d691701d899d16fb7d5d0868f46b7657ca5",
+    "telemetry.machineId": "fd34e5af92924e65fa0ab75f223ce74be452314e2a75ee89c84ddef77e35f274",
+    "telemetry.devDeviceId": "42064836-c266-4a14-95ae-785cb4146f71",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/uylong"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1748445872480"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/uylong": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/uylong",
+            "backupPath": "/home/uylong/.config/Cursor/Backups/294592dc2d0a3337ffc920cc8af13a6c",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 720,
+                "height": 868
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1a1a1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#1a1a1a",
+            "editorBackground": "#1a1a1a",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

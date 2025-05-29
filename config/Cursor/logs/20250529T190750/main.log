@@ -1,0 +1,5 @@
+2025-05-29 19:07:50.254 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.50.5/fd34e5af92924e65fa0ab75f223ce74be452314e2a75ee89c84ddef77e35f274/stable
+2025-05-29 19:07:50.254 [info] update#setState idle
+2025-05-29 19:07:57.771 [info] Extension host with pid 115704 exited with code: 0, signal: unknown.
+2025-05-29 19:08:20.233 [info] update#setState checking for updates
+2025-05-29 19:08:21.122 [info] update#setState available for download

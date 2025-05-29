@@ -1,0 +1,10 @@
+[ExtractDialog]
+1440x900 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/School/CS226/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled

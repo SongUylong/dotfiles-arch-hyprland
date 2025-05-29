@@ -1,0 +1,181 @@
+2025-05-29 19:07:50.743 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.744 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.745 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.745 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.745 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:50.783 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:50.783 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:50.783 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:50.783 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:50.783 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:51.086 [info] Started local extension host with pid 115704.
+2025-05-29 19:07:51.967 [error] [Extension Host] (node:115704) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-29 19:07:53.492 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-29 19:07:53.492 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-29 19:07:53.492 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-29 19:07:53.643 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:07:53.644 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:07:53.675 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:07:53.683 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:07:53.874 [info] [perf] Render performance baseline is 25ms
+2025-05-29 19:07:58.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.183 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.184 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-29 19:07:58.200 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.200 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.201 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.202 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-29 19:07:58.396 [info] Started local extension host with pid 116197.
+2025-05-29 19:07:59.137 [error] [Extension Host] (node:116197) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-29 19:08:00.016 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:08:00.016 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '/home/uylong/.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:08:00.064 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:08:00.074 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-29 19:08:00.953 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-29 19:08:00.954 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-29 19:08:00.954 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-29 19:08:05.189 [info] [perf] Render performance baseline is 16ms
+2025-05-29 19:16:11.539 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.134 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '/home/uylong/.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.693 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.695 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '/home/uylong/.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.780 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.810 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.810 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:13.825 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async t.GitProvider.getBranchDiffRaw (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295418)
+	at async t.GitProvider.getBranchDiff (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1301256)
+	at async Rtt.$getDiffToMain (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:54235)
+2025-05-29 19:16:21.812 [info] Extension host (LocalProcess pid: 116197) is unresponsive.
+2025-05-29 19:16:22.643 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-05-29 19:16:29.403 [info] Extension host (LocalProcess pid: 116197) is responsive.

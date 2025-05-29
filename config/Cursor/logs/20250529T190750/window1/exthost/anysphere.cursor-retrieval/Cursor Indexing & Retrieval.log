@@ -1,0 +1,141 @@
+2025-05-29 19:07:53.168 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-29 19:07:53.168 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-29 19:07:53.168 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-29 19:07:53.168 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-29 19:07:53.168 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-29 19:07:53.444 [error] NoWorkspaceUriError
+2025-05-29 19:07:53.643 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-29 19:07:53.643 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-05-29 19:07:53.674 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-29 19:07:53.682 [warning] Failed to get default branch from git config: Failed to execute git
+2025-05-29 19:07:57.060 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-29 19:07:57.060 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-29 19:07:57.061 [error] NoWorkspaceUriError
+2025-05-29 19:07:59.996 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-29 19:07:59.996 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-29 19:07:59.996 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-29 19:07:59.996 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-29 19:07:59.996 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-29 19:07:59.996 [info] Making keys for a new index
+2025-05-29 19:07:59.996 [info] Using the default key from the server for a new index
+2025-05-29 19:07:59.996 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:00.015 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-29 19:08:00.016 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/uylong/.git/HEAD')
+2025-05-29 19:08:00.063 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-29 19:08:00.073 [warning] Failed to get default branch from git config: Failed to execute git
+2025-05-29 19:08:00.245 [info] Using existing keys for an index
+2025-05-29 19:08:00.245 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:00.256 [error] We currently do not allow indexing the home directory.
+2025-05-29 19:08:00.256 [info] Indexing job successfully done or aborted.
+2025-05-29 19:08:00.335 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-05-29 19:08:02.257 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-05-29 19:08:04.467 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-29 19:08:04.467 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-29 19:08:04.468 [info] multiCodebaseIndexingJob dispose
+2025-05-29 19:08:04.468 [info] Aborting indexing job.
+2025-05-29 19:08:04.468 [info] Using existing keys for an index
+2025-05-29 19:08:04.468 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:04.470 [error] We currently do not allow indexing the home directory.
+2025-05-29 19:08:04.470 [info] Indexing job successfully done or aborted.
+2025-05-29 19:08:05.418 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-29 19:08:05.418 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-29 19:08:05.418 [info] multiCodebaseIndexingJob dispose
+2025-05-29 19:08:05.418 [info] Aborting indexing job.
+2025-05-29 19:08:05.418 [info] Using existing keys for an index
+2025-05-29 19:08:05.418 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:05.594 [info] Using existing keys for an index
+2025-05-29 19:08:05.594 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:05.594 [info] Using existing keys for an index
+2025-05-29 19:08:05.594 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-29 19:08:05.596 [error] We currently do not allow indexing the home directory.
+2025-05-29 19:08:05.596 [info] Indexing job successfully done or aborted.
+2025-05-29 19:08:14.858 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-05-29 19:08:15.682 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/Cocos4.0/../../../.git/modules/meta/3rd/Cocos4.0
+
+2025-05-29 19:08:15.710 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/Defold/../../../.git/modules/meta/3rd/Defold
+
+2025-05-29 19:08:15.737 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/Jass/../../../.git/modules/meta/3rd/Jass
+
+2025-05-29 19:08:15.764 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/OpenResty/../../../.git/modules/meta/3rd/OpenResty
+
+2025-05-29 19:08:15.793 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/bee/../../../.git/modules/meta/3rd/bee
+
+2025-05-29 19:08:15.824 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/busted/../../../.git/modules/meta/3rd/busted
+
+2025-05-29 19:08:15.852 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/ffi-reflect/../../../.git/modules/meta/3rd/ffi-reflect
+
+2025-05-29 19:08:15.878 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/lfs/../../../.git/modules/meta/3rd/lfs
+
+2025-05-29 19:08:15.905 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/love2d/../../../.git/modules/meta/3rd/love2d
+
+2025-05-29 19:08:15.935 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/luaecs/../../../.git/modules/meta/3rd/luaecs
+
+2025-05-29 19:08:15.963 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/luassert/../../../.git/modules/meta/3rd/luassert
+
+2025-05-29 19:08:15.991 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/lovr/../../../.git/modules/meta/3rd/lovr
+
+2025-05-29 19:08:16.019 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/luv/../../../.git/modules/meta/3rd/luv
+
+2025-05-29 19:08:16.048 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository: /home/uylong/.local/share/nvim/mason/packages/lua-language-server/libexec/meta/3rd/skynet/../../../.git/modules/meta/3rd/skynet
+
+2025-05-29 19:12:58.810 [error] Git command failed: git rev-parse --show-toplevel Command failed: git rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2025-05-29 19:13:05.598 [info] multiCodebaseIndexingJob dispose
+2025-05-29 19:13:05.598 [info] Aborting indexing job.
+2025-05-29 19:13:05.598 [error] We currently do not allow indexing the home directory.
+2025-05-29 19:13:05.598 [info] Indexing job successfully done or aborted.
+2025-05-29 19:16:11.537 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-29 19:16:13.133 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/uylong/.git/HEAD')
+2025-05-29 19:16:13.693 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-29 19:16:13.695 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/uylong/.git/HEAD')
+2025-05-29 19:16:13.779 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-29 19:16:13.809 [warning] Failed to get default branch from git config: Failed to execute git
+2025-05-29 19:16:13.810 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-29 19:16:13.824 [warning] Failed to get default branch from git config: Failed to execute git

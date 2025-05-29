@@ -1,0 +1,6 @@
+2025-05-29 18:59:57.184 [info] Started local extension host with pid 99414.
+2025-05-29 18:59:57.202 [info] ComputeTargetPlatform: linux-x64
+2025-05-29 19:00:00.137 [info] [perf] Render performance baseline is 21ms
+2025-05-29 19:00:01.249 [info] Started local extension host with pid 99561.
+2025-05-29 19:00:01.301 [info] ComputeTargetPlatform: linux-x64
+2025-05-29 19:00:03.861 [info] [perf] Render performance baseline is 14ms

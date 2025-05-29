@@ -1,0 +1,49 @@
+2025-05-29 19:07:51.963 [info] Extension host with pid 115704 started
+2025-05-29 19:07:51.984 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 19:07:51.996 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 19:07:52.037 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-29 19:07:52.075 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-29 19:07:52.315 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-29 19:07:52.320 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-29 19:07:52.371 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-29 19:07:52.450 [info] Eager extensions activated
+2025-05-29 19:07:52.459 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:52.610 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:52.658 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:52.899 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:52.955 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:53.081 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:53.091 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:57.715 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-29 19:07:57.762 [error] Error: Channel has been closed
+	at n (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+	at Object.appendLine (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+	at c (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1558023)
+	at t.deactivate (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1559679)
+	at /opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:285747
+	at t.deactivate (/opt/cursor/squashfs-root/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:285806)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 1)
+	at async $oe.$ (file:///opt/cursor/squashfs-root/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-29 19:07:57.766 [info] Extension host with pid 115704 exiting with code 0
+2025-05-29 19:07:59.172 [info] Extension host with pid 116197 started
+2025-05-29 19:07:59.172 [info] Skipping acquiring lock for /home/uylong/.config/Cursor/User/workspaceStorage/9ce6b1782c14b974ac28499080a84c9a.
+2025-05-29 19:07:59.200 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-29 19:07:59.210 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-29 19:07:59.281 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-29 19:07:59.355 [info] Eager extensions activated
+2025-05-29 19:07:59.376 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.533 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.573 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.733 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.786 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.912 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:07:59.915 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-29 19:08:00.390 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-29 19:08:00.769 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-05-29 19:10:06.380 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-05-29 19:10:10.664 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-05-29 19:10:10.676 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-05-29 19:10:12.285 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-05-29 19:10:12.295 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-05-29 19:10:20.233 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
