@@ -129,17 +129,51 @@ install_additional_packages() {
 setup_nodejs() {
     print_header "SETTING UP NODE.JS ENVIRONMENT"
     
-    if [[ ! -d "$HOME/.config/nvm" ]]; then
+    # Check both common NVM locations
+    if [[ ! -d "$HOME/.nvm" && ! -d "$HOME/.config/nvm" ]]; then
         print_status "Installing NVM and Node.js..."
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-        export NVM_DIR="$HOME/.config/nvm"
-        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-        nvm install node
+        
+        # Source NVM - check multiple possible locations
+        export NVM_DIR="$HOME/.nvm"
+        if [[ -s "$NVM_DIR/nvm.sh" ]]; then
+            source "$NVM_DIR/nvm.sh"
+        elif [[ -s "$HOME/.config/nvm/nvm.sh" ]]; then
+            export NVM_DIR="$HOME/.config/nvm"
+            source "$NVM_DIR/nvm.sh"
+        else
+            print_error "NVM installation failed - nvm.sh not found"
+            return 1
+        fi
+        
+        # Install Node.js versions
+        print_status "Installing Node.js LTS..."
         nvm install --lts
         nvm use --lts
+        
+        print_status "Installing latest Node.js..."
+        nvm install node
+        
         print_success "Node.js installed via NVM"
     else
         print_warning "NVM already installed"
+        
+        # Try to source existing NVM
+        if [[ -s "$HOME/.nvm/nvm.sh" ]]; then
+            export NVM_DIR="$HOME/.nvm"
+            source "$NVM_DIR/nvm.sh"
+        elif [[ -s "$HOME/.config/nvm/nvm.sh" ]]; then
+            export NVM_DIR="$HOME/.config/nvm"
+            source "$NVM_DIR/nvm.sh"
+        fi
+        
+        # Check if nvm is available now
+        if command_exists nvm; then
+            print_status "NVM is available and ready to use"
+        else
+            print_warning "NVM installed but not available in current session"
+            print_warning "You may need to restart your terminal to use Node.js"
+        fi
     fi
 }
 
