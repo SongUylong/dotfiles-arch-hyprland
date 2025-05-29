@@ -112,7 +112,6 @@ install_additional_packages() {
         if command_exists yay; then
             print_status "Installing additional AUR packages..."
             local aur_packages=(
-                "spicetify-cli"
                 "visual-studio-code-bin"
             )
             yay -S --needed --noconfirm "${aur_packages[@]}" || print_warning "Some AUR packages failed to install"
@@ -177,19 +176,6 @@ setup_nodejs() {
     fi
 }
 
-# Function to install Spicetify
-setup_spicetify() {
-    print_header "SETTING UP SPICETIFY"
-    
-    # Install Spicetify if not available via package manager
-    if ! command_exists spicetify; then
-        print_status "Installing Spicetify..."
-        curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
-        print_success "Spicetify installed"
-    else
-        print_warning "Spicetify already installed"
-    fi
-}
 
 # Function to backup existing configurations
 backup_existing_configs() {
@@ -325,7 +311,7 @@ show_final_instructions() {
     print_status "✓ All essential packages via HyDE installer"
     print_status "✓ Your custom dotfiles and configurations"
     print_status "✓ Development tools and environments"
-    print_status "✓ Node.js and Spicetify"
+    print_status "✓ Node.js"
     echo ""
     print_status "Next steps:"
     print_status "1. Restart your system (recommended for first-time HyDE setup)"
@@ -374,7 +360,6 @@ main() {
     install_hyde
     install_additional_packages
     setup_nodejs
-    setup_spicetify
     install_dotfiles
     run_hyde_restore
     show_final_instructions
