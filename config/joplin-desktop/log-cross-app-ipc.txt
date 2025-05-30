@@ -40,3 +40,4 @@ FetchError: invalid json response body at http://localhost:2659/ reason: Unexpec
 2025-05-28 23:05:43: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
 2025-05-29 09:54:47: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
 2025-05-29 18:42:18: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
+2025-05-30 11:43:09: Starting server using secret key: /home/uylong/.config/joplin-desktop/ipc_secret_key.txt
